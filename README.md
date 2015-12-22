@@ -7,7 +7,8 @@ used as input to SmartVA-Analyze 1.1.
 # Short version
 
 SmartVA-Analyze 1.1 accepts a csv file as input, and expects a column
-for every field name in the "Guide for data entry.xlsx" spreadsheet.
+for every field name in [the "Guide for data entry.xlsx"
+spreadsheet](https://github.com/aflaxman/SmartVA-Analyze-Mapping-Example/blob/master/Guide%20for%20data%20entry.xlsx).
 
 It also requires a handful of columns that are not in the Guide (because they do not contain data):
 
@@ -15,8 +16,11 @@ It also requires a handful of columns that are not in the Guide (because they do
 * agedays
 * child_5_7e
 * child_5_6e
+* adult_2_9a
 
-It is possible to run a csv through SmartVA-Analyze 1.1 without values in these columns.  Try it with example_1.csv.
+It is possible to run a csv through SmartVA-Analyze 1.1 without values
+in any of these columns (as long as the column headings are present).
+Try it with example_1.csv.
 
 Mapping the data from your existing database into this format requires careful attention to detail.
 
